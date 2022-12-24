@@ -1,5 +1,8 @@
 # 如何建立自己的免費遊戲VPN
 
+[![hackmd-github-sync-badge](https://hackmd.io/3evdDPTOQYSR34JeSRGQ3Q/badge)](https://hackmd.io/3evdDPTOQYSR34JeSRGQ3Q)
+
+
 我們將會：
 
 1. 利用Oracle Cloud建立免費的VPS伺服器
