@@ -278,7 +278,8 @@ AllowedApps = firefox.exe
 ```
 * 如果使用Docker建立WireGuard伺服器則可以直接編輯先前保存好的檔案
 2. 下載並安裝[WireSock](https://www.wiresock.net/downloads/wiresock-vpn-client-x64-1.2.15.1.msi)。
-3. 打開powershell或命令提示字元，執行WireSock。注意必須把`YOUR_PATH`換成剛剛建立的`wg0.conf`的路徑！
+    * 若連結失效就到 https://www.wiresock.net/ 下載最新版。
+4. 打開powershell或命令提示字元，執行WireSock。注意必須把`YOUR_PATH`換成剛剛建立的`wg0.conf`的路徑！
 ```powershell!
 wiresock-client.exe run -config "C:\YOUR_PATH\wg0.conf" -log-level info
 ```
